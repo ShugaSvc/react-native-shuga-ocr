@@ -17,6 +17,8 @@
 
 - Find the following frameworks (19 of them) in Firebase SDK and drag them to your project's Framework:
 
+	NOTE: `MeasurementNanoPB.framework` is not required for Firebase SDK > 5.9.0
+
 	![Firebase frameworks](./docs/fbframeworks.png)
 
 - Go to your project's main TARGET -> Build Phases -> Link Binary With Libraries, and add the following items (3 of them):
