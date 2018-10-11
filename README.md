@@ -31,6 +31,10 @@
 
 	![App Resource](./docs/appresource.png)
 
+- You may encounter [this issue](https://github.com/firebase/quickstart-ios/issues/487) on Firebase 5.9.0, this can be fixed by setting YES to your TARGET's Dead Code Stripping
+
+	![Dead Code Stripping](./docs/stripdeadcode.png)
+
 #### Android
 
 - Add Firebase's ```google-services.json``` to your Android project
