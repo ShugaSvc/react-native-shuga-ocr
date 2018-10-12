@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.shuga.reactnative;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

@@ -1,4 +1,5 @@
-package com.reactlibrary;
+package com.shuga.reactnative;
+
 import com.facebook.react.bridge.WritableArray;
 
 public class RNShugaTextBlockResultWrapper {

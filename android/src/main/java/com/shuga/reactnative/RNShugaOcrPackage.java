@@ -1,5 +1,4 @@
-
-package com.reactlibrary;
+package com.shuga.reactnative;
 
 import java.util.Arrays;
 import java.util.Collections;

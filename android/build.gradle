@@ -45,7 +45,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.facebook.react:react-native:0.55.4'
+    compileOnly 'com.facebook.react:react-native:+'
 
     implementation 'com.google.firebase:firebase-core:16.0.3'
     implementation 'com.google.firebase:firebase-ml-vision:17.0.0'

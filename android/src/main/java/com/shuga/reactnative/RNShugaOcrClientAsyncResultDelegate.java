@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.shuga.reactnative;
 
 public interface RNShugaOcrClientAsyncResultDelegate {
     void onRNShugaOcrFailure(String message);
