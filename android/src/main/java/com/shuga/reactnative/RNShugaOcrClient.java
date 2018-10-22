@@ -23,8 +23,8 @@ import java.util.List;
 
 public class RNShugaOcrClient {
     // Method for React Native frontend, will invoke given callback upon success or error
-    public void scanTextInImage(String data, final Callback successCallback, final Callback errorCallback) {
-        byte[] bytes = Base64.decode(data, Base64.DEFAULT);
+    public void scanTextInImage(String base64String, final Callback successCallback, final Callback errorCallback) {
+        byte[] bytes = Base64.decode(base64String, Base64.DEFAULT);
 
         //Convert to bitmap instead of calling .fromByteArray for base64 images, as for some reason, it'll throw "Invalid image data size" error
         Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
