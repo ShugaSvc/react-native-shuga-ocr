@@ -24,7 +24,11 @@ RCT_EXPORT_METHOD(scanTextInImage:(NSString *)data success:(RCTResponseSenderBlo
         
         successCallback(@[returnResult]);
     } error:^(NSString *errorMessage) {
-        errorCallback(@[errorMessage]);
+        if (errorMessage == nil) {
+            errorCallback(@[[NSNull null]]);
+        } else {
+            errorCallback(@[errorMessage]);
+        }
     }];
 }
 
