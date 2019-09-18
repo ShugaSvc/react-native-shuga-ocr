@@ -50,7 +50,7 @@ dependencies {
 
     compileOnly 'com.facebook.react:react-native:+'
 
-    implementation 'com.google.firebase:firebase-core:16.0.3'
+    implementation 'com.google.firebase:firebase-core:16.0.9'
     implementation 'com.google.firebase:firebase-ml-vision:17.0.0'
     implementation 'com.google.firebase:firebase-ml-vision-image-label-model:16.2.0'
     implementation "com.android.support:exifinterface:$supportLibVersion"
